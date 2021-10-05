@@ -59,8 +59,10 @@
         <StackPanel x:Name="stackPanelBotones"
                     HorizontalAlignment="Right"
                     Orientation="Horizontal">
-            <Button Content="Aceptar"></Button>
-            <Button Content="Cancelar"></Button>
+            <Button Content="Aceptar"
+                    Width="100"></Button>
+            <Button Content="Cancelar"
+                    Width="100"></Button>
         </StackPanel>
     </StackPanel>
 </Window>
