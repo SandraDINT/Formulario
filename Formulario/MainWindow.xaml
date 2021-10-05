@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Formulario"
         mc:Ignorable="d"
         Title="Formulario" Height="350" Width="750"
-        Icon = "Assets/icon.ico">
+        Icon = "Assets/icon.ico"
+        MinWidth="500">
     <StackPanel Margin="10">
         <StackPanel x:Name="stackPanelNombre"
                     Height="60">
