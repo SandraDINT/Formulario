@@ -21,8 +21,9 @@
             </StackPanel.Background>
             <TextBlock Text="Nombre" 
                        FontWeight="Bold"
-                       FontSize="16"/>
-            <TextBox></TextBox>
+                       FontSize="16"
+                       Margin="3,0,0,0"/>
+            <TextBox Margin="3,0,0,0"></TextBox>
         </StackPanel>
 
         <StackPanel x:Name="stackPanelDireccion"
@@ -37,8 +38,9 @@
             </StackPanel.Background>
             <TextBlock Text="Direccion" 
                        FontWeight="Bold"
-                       FontSize="16"/>
-            <TextBox></TextBox>
+                       FontSize="16"
+                       Margin="3,0,0,0"/>
+            <TextBox Margin="3,0,0,0"></TextBox>
         </StackPanel>
 
         <StackPanel x:Name="stackPanelCorreo"
@@ -53,15 +55,17 @@
             </StackPanel.Background>
             <TextBlock Text="Correo electrónico"
                        FontWeight="Bold" 
-                       FontSize="16"/>
-            <TextBox></TextBox>
+                       FontSize="16"
+                       Margin="3,0,0,0"/>
+            <TextBox Margin="3,0,0,0"></TextBox>
         </StackPanel>
 
         <StackPanel x:Name="stackPanelBotones"
                     HorizontalAlignment="Right"
                     Orientation="Horizontal">
             <Button Content="Aceptar"
-                    Width="100"></Button>
+                    Width="100"
+                    Margin="0,0,5,0"></Button>
             <Button Content="Cancelar"
                     Width="100"></Button>
         </StackPanel>
