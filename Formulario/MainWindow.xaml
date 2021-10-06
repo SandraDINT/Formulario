@@ -9,8 +9,7 @@
         Icon = "Assets/icon.ico"
         MinWidth="500">
     <StackPanel Margin="10">
-        <StackPanel x:Name="stackPanelNombre"
-                    Height="60">
+        <StackPanel x:Name="nombreStackPanel">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -23,11 +22,10 @@
                        FontWeight="Bold"
                        FontSize="16"
                        Margin="3,0,0,0"/>
-            <TextBox Margin="3,0,0,0"></TextBox>
+            <TextBox Margin="3,0,3,25"></TextBox>
         </StackPanel>
 
-        <StackPanel x:Name="stackPanelDireccion"
-                    Height="60">
+        <StackPanel x:Name="stackPanelDireccion">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -40,11 +38,10 @@
                        FontWeight="Bold"
                        FontSize="16"
                        Margin="3,0,0,0"/>
-            <TextBox Margin="3,0,0,0"></TextBox>
+            <TextBox Margin="3,0,3,25"></TextBox>
         </StackPanel>
 
-        <StackPanel x:Name="stackPanelCorreo"
-                    Height="60">
+        <StackPanel x:Name="stackPanelCorreo">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -57,7 +54,10 @@
                        FontWeight="Bold" 
                        FontSize="16"
                        Margin="3,0,0,0"/>
-            <TextBox Margin="3,0,0,0"></TextBox>
+            <TextBox 
+                     Width="600"
+                     HorizontalAlignment="Left"
+                     Margin="0,0,0,25"></TextBox>
         </StackPanel>
 
         <StackPanel x:Name="stackPanelBotones"
